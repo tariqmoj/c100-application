@@ -7,6 +7,13 @@ en:
       finish: Finish
 
   steps:
+    start:
+      start:
+        show:
+          page_title: Start
+          heading: 'Task: Start, Step: Start'
+          lead_text: Start the application
+
     nature_of_application:
       case_type:
         edit:
