@@ -26,6 +26,8 @@ Rails.application.routes.draw do
              }
 
   namespace :steps do
+    namespace :start do
+    end
     namespace :nature_of_application do
       edit_step :case_type
       show_step :case_type_kickout
