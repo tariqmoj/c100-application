@@ -55,6 +55,12 @@ en:
     error_summary:
       heading: There's a problem. You need to fix this error.
       text: ''
+    invalid_session:
+      heading: Sorry, you'll have to start again
+      <<: *START_FINISH
+      lead_text: Your session automatically ends if you don't use the service for %{session_timeout} minutes.
+      more_text: We do this for your security. Any unsaved details will be deleted.
+      page_title: Invalid session
     unhandled:
       heading: Sorry, something went wrong
       <<: *START_FINISH
