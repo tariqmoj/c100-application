@@ -15,6 +15,11 @@ en:
           lead_text: Start the application
 
     nature_of_application:
+      start:
+        edit:
+          page_title: Start
+          heading: 'Task: NatureOfApplication, Step: Start'
+          lead_text: Start the NatureOfApplication task
       case_type:
         edit:
           page_title: Case type
